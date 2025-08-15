@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landscape Supervisor Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Landscape Supervisor</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#skills-edu">Skills & Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+           
+           
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <section class="hero">
+            <img src="assets/hero.jpg" alt="Landscape" class="hero-img">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Designing Tomorrow's Landscapes</h1>
+                <p>Transforming spaces with creativity, care, and expertise</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="about" class="about">
+            <div class="about-content">
+                <img src="assets/passport size.jpg" alt="Profile" class="profile-img">
+                <div>
+                    <h2>About Me</h2>
+                    <p>
+                        I'm <b>MOHAMED RISATH</b>, a landscape supervisor with a passion for sustainable outdoor design. With 8+ years in the field, I turn visions into thriving environments, managing projects from concept to completion.
+                    </p>
+                    <ul class="skills-list">
+                        <li>Site Planning</li>
+                        <li>Team Leadership</li>
+                        <li>Eco-friendly Solutions</li>
+                        <li>Project Management</li>
+                        <li>Client Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <img src="assets/PROJECT1.jpeg" alt="Residential Garden">
+                    <div class="card-content">
+                        <h3>Landscaps Supervisor
+                            Al Safa Construction, Irrigation , Landscape Group (PVT) Ltd-(2019-2020)</h3>
+                        <p>Supervised and instructed crews on 
+                            landscape maintenance, including planting, pruning, and general upkeep. Managed tasks like mowing, weeding, and trimming to maintain site appearance.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="assets/PROJECT2.jpeg" alt="Corporate Campus">
+                    <div class="card-content">
+                        <h3>Garden Maintenance - Satha Garden Park(2021-2023)</h3>
+                        <p> Managed residential landscaping and stonework projects, including maintenance, lawn care, and custom installations. Simultaneously, I ensured brand consistency across all marketing materials.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/PROJECT3.jpeg" alt="City Park">
+                    <div class="card-content">
+                        <h3>Gardener Team Leader 
+                            Marina Facilities Management LLC-( 2024 - 2025 )</h3>
+                        <p>Supervised a team and managed daily operations, ensuring all work was completed on time and to a high standard. I also coordinated work schedules, handled resource management (tools, equipment, and materials), and maintained strict quality control for all projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Add this after the Projects section -->
+<section class="video-section">
+    <h2>See Me in Action</h2>
+    <video controls width="100%" poster="assets/video-thumb.jpg">
+      <source src="assets/trimming.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+  <section id="skills-edu" class="skills-edu-section">
+    <h2>My Skills & Education</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <span class="skill-icon">🌳</span>
+            <h3>Landscape Design</h3>
+            <p>Expert in designing functional and beautiful outdoor spaces.</p>
+        </div>
+        <div class="skill-card">
+            <span class="skill-icon">👷‍♂️</span>
+            <h3>Project Supervision</h3>
+            <p>Managing teams and resources for successful project delivery.</p>
+        </div>
+        <div class="skill-card">
+            <span class="skill-icon">🌱</span>
+            <h3>Sustainability</h3>
+            <p>Implementing eco-friendly practices in all projects.</p>
+        </div>
+        <div class="skill-card">
+            <span class="skill-icon">🗣️</span>
+            <h3>Client Communication</h3>
+            <p>Ensuring clear, effective collaboration with clients.</p>
+        </div>
+<br>
+    </div>
+    <h3 class="edu-heading">Education</h3>
+    <div class="edu-timeline">
+        <div class="edu-item">
+            <div class="edu-date">2020</div>
+            <div class="edu-details">
+                <h4>Higher National Diploma in Agriculture</h4>
+                <p>Technical College, Sammanthurai</p>
+            </div>
+        </div>
+        <div class="edu-item">
+            <div class="edu-date">2018</div>
+            <div class="edu-details">
+                <h4>Plant Nursery Assistant - NVQ (Level 4)</h4>
+                <p>National Vocational Center</p>
+            </div>
+        </div>
+    </div>
+</section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm" autocomplete="off">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+                <p id="formResponse"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>  N.M.RISATH</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
